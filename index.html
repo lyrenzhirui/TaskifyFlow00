@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>数字便利贴 - 待办事项管理</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="control-bar">
+        <button id="addBtn" class="sticky-btn">➕ 新建任务</button>
+        <button id="delBtn" class="sticky-btn danger">🗑️ 删除已完成</button>
+        <button id="exportBtn" class="sticky-btn">📤 导出任务</button>
+        <button id="clearBtn" class="sticky-btn danger">💣 清空全部</button>
+    </div>
+    
+    <div id="taskContainer" class="task-grid"></div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
