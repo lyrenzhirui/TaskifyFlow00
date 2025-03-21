@@ -1,7 +1,8 @@
 body {
     font-family: 'Segoe UI', sans-serif;
-    background: #f0f0f0;
+    background: #f0f0f0 url('./101.jpeg') center/cover no-repeat fixed;
     padding: 20px;
+    min-height: 100vh;
 }
 
 .control-bar {
@@ -37,7 +38,7 @@ body {
     min-height: 200px;
     box-shadow: 3px 3px 7px rgba(0,0,0,0.3);
     position: relative;
-    background: linear-gradient(160deg, hsl(var(--hue), 85%, 85%) 0%, hsl(var(--hue), 75%, 75%) 100%);
+    background: linear-gradient(160deg, hsla(var(--hue), 85%, 85%, 0.9) 0%, hsla(var(--hue), 75%, 75%, 0.9) 100%);
 }
 
 .sticky-note::after {
